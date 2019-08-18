@@ -1,0 +1,32 @@
+body {
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+}
+
+div {
+    padding: 25px;
+    margin: 25px;
+    background-color: white;
+}
+
+label{
+    font-weight: bold;
+}
+
+#submit {
+    margin-left: 200px;
+}
+
+#footer {
+    background-color: white;
+    opacity: 0.9;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    border-radius: 25px;
+    text-align: center;
+}
