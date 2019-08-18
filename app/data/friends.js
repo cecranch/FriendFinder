@@ -1,11 +1,17 @@
+// Dependencies
+// =============================================================
+var express = require("express");
+var path = require("path");
+
+
+
 // You should save your application's data inside of app/data/friends.js as an array of objects. 
-// Each of these objects should roughly follow the format below.
 
 
 var friends = [
 {
     name:"Jen",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    photo:"/public/assets/images/jen.jpg",
     scores:[
         4,
         1,
@@ -21,7 +27,7 @@ var friends = [
   },
   {
     name:"George",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    photo:"/public/assets/images/george.jpg",
     scores:[
         3,
         1,
@@ -37,7 +43,7 @@ var friends = [
   },
   {
     name:"Rebel",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    photo:"/public/assets/images/rebel.jpg",
     scores:[
         1,
         1,
@@ -53,7 +59,7 @@ var friends = [
   },
   {
     name:"Bruce",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    photo:"/public/assets/images/bruce.jpg",
     scores:[
         5,
         5,
@@ -69,7 +75,7 @@ var friends = [
   },
   {
     name:"Chris",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    photo:"/public/assets/images/chris.jpg",
     scores:[
         5,
         1,
